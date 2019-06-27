@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Montanha
+  - AreaSegura
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Montanha
+  - AreaSegura
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: background
+    uniqueID: 487097019
+    locked: 0
+  - name: Cenario
+    uniqueID: 4102713609
+    locked: 0
+  - name: LuzAreaSegura
+    uniqueID: 438871023
+    locked: 0
+  - name: Player
+    uniqueID: 1048999203
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Montanha
+    uniqueID: 23514117
+    locked: 0
+  - name: AreaSegura
+    uniqueID: 2013118255
+    locked: 0
+  - name: GameController
+    uniqueID: 3424964835
+    locked: 0
