@@ -82,6 +82,8 @@ public class PlayerController : MonoBehaviour
     public void Propulsor()
     {
         float v = Input.GetAxis("Vertical");
+        Debug.Log("voar");
+
 
         if (Mathf.Abs(Input.GetAxis("Vertical")) > 0) { 
             propulsorFx.enabled = true;
@@ -137,8 +139,10 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        
         switch (collision.gameObject.tag)
         {
+           
             case "Montanha":
                 Instantiate(explosao, collision.contacts[0].point, Quaternion.identity);
                 Destroy(gameObject);
